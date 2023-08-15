@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    width: 1440px;
+    height: 900px;
+    flex-shrink: 0;
+    position: relative;
+    background-image: url(resources/header/Rectangle\ 226.png);
+    background-repeat: no-repeat;
+}
+
+.header1 {
+    padding: 30px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    margin-left: 200px;
+}
+
+.menu a {
+    margin: 25px;
+    color: #ffffff;
+}
+
+.fill {
+    margin-right: 7px;
+    height: 14px;
+    width: 14px;
+    padding: 3px 1px;
+    border-radius: 100%;
+    background-color: #FF2B77;
+}
+
+.fill p {
+    color: #FFF;
+    text-align: center;
+    font-family: Google Sans;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 8px;
+    /* 100% */
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+}
+
+.vactor {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+
+}
+
+.content {
+    margin-top: 150px;
+}
+
+.content p {
+    color: #FFF;
+    font-family: Google Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    /* 162.5% */
+}
+
+.content p span {
+    color: #FFF;
+    font-family: Google Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.content-p {
+    height: 72px;
+    width: 400px;
+    color: #31546D;
+    font-family: Google Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
